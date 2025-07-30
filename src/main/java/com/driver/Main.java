@@ -3,15 +3,15 @@ package com.driver;
 public class Main {
         public static class Product {
 
-        public int product(int x, int y) {
+        public void product(int x, int y) {
                 System.out.println("Product of x and y: " + x*y);
         }
 
-        public int product(int x, int y, int z) {
+        public void product(int x, int y, int z) {
             System.out.println("Product of x , y and z : " + x * y * z);
         }
   
-        public double product(double x, double y) {
+        public void product(double x, double y) {
             System.out.println("Product of double x and y: " + x*y);
         }
     }
